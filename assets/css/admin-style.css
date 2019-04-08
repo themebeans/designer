@@ -1,0 +1,775 @@
+#customize-control-type_select_nav,
+#customize-control-type_select_body {
+	margin-top: 20px;
+}
+
+#customize-control-blogname {
+	margin-top: 10px;
+	border-top: 1px solid #dcdcdc;
+	padding-top: 20px;
+}
+
+#customize-control-portfolio_css_filter {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+#customize-control-custom_more_tag {
+	margin-top: 10px;
+}
+
+
+
+/**
+ * Fixes styles from external plugins that mess up stuff.
+ */
+
+
+.customize-control-image .container,
+#customize-control-header_image .container {
+    padding: inherit;
+    width: inherit;
+}
+
+
+/**
+ * Adds custom styling for the widget media uploaders.
+ */
+
+
+.widget-media-container {
+    width: 100%;
+    margin-top: -9px;
+}
+
+.widget-no-image {
+    border: 1px dashed #ddd;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.widget-media-inner img {
+    max-width: 100%;
+    border-radius: 2px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.widget-media-url {
+    display: none;
+}
+
+.widget-media-remove {
+    float: left;
+    width: 48%;
+}
+
+.widget-media-upload {
+    float: right;
+    width: 48%;
+}
+
+
+
+/**
+ * Adds custom styling for the gallery media uploaders.
+ */
+
+
+.widget-media-container--grid img {
+    width: 29px;
+    height: 29px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+.widget-media-container--grid ul li {
+    width: 100%;
+    display: block;
+    float: left;
+    border-bottom: 1px solid #eee;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.widget-media-container--grid ul li:first-child {
+    padding-top: 5px;
+}
+
+.widget-media-container--grid ul li .widget-no-image {
+    height: 28px;
+    margin: 0;
+    padding: 0;
+    width: 28px;
+}
+
+.widget-media-container--grid .image-wrap {
+    width: 20%;
+    float: left;
+}
+
+.widget-media-container--grid .buttons-wrap {
+    width: 70%;
+    margin-left: 10%;
+    float: left;
+}
+
+
+/**
+ * Widget Color Pickers
+ */
+
+
+.customize-control .widget-color-container {
+    display: none;
+}
+
+.widget-color-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.widget-color-container .wp-picker-container {
+    margin-bottom: 5px;
+}
+
+
+/**
+ * Customizer
+ */
+
+#customize-control-retina_logo {
+    margin-bottom: 0;
+}
+
+#customize-control-powered_by_plate {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#customize-control-powered_by_plate.customize-control-checkbox label {
+    padding-bottom: 0;
+}
+
+#customize-control-site_logo .actions {
+    margin-bottom: 3px;
+}
+
+#customize-control-footer_logo .actions {
+    margin-bottom: 10px;
+}
+
+#customize-control-header_image .choices {
+    display: none;
+}
+
+#customize-control-header_image .customizer-section-intro {
+    display: none;
+}
+
+#customize-control-header_image .container {
+    margin-top: 5px;
+}
+#customize-control-header_image label {
+    text-transform: capitalize;
+}
+
+#customize-control-plate_hero_format,
+#customize-control-plate_hero_video_global {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+#customize-control-plate_hero_video_global {
+    padding-bottom: 15px;
+}
+
+#customize-control-plate_address_circle_background,
+#customize-control-plate_nav_a_color,
+#customize-control-plate_footer_background,
+#customize-control-plate_hero_background_color_default,
+#customize-control-plate_announcement_bar_color {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+#customize-control-plate_announcement_bar_color,
+#customize-control-plate_footer_background {
+    margin-top: 15px;
+}
+
+.customize-control-color .customize-control-title {
+    font-size: inherit;
+    margin-bottom: 0;
+}
+
+#customize-control-contact_img .actions {
+    margin-bottom: 20px;
+}
+
+/* Range control styles */
+li.customize-control.customize-control-range .ui-slider-handle {
+    position: absolute;
+    z-index: 2;
+    width: 1.4em;
+    height: 1.4em;
+    cursor: default;
+}
+
+li.customize-control.customize-control-range .ttfmake-control-range {
+    float: left;
+    width: 25%;
+}
+
+li.customize-control.customize-control-range .ttfmake-range-slider {
+    float: right;
+    width: 70%;
+    margin-top: 8px;
+}
+
+li.customize-control.customize-control-range .ui-slider-handle {
+    top: -.4em;
+    border-color: #32373C;
+    background: #32373C;
+}
+
+li.customize-control.customize-control-range .ui-slider-horizontal {
+    height: .6em;
+    border: 1px solid #DDD;
+    border-radius: 10px;
+    background: #fff;
+    position: relative;
+    top: 9px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+}
+
+li.customize-control.customize-control-range .ui-slider-handle {
+    border-radius: 100%;
+}
+
+li.customize-control.customize-control-range .ui-slider-handle:hover {
+    cursor: pointer;
+}
+
+
+/* Customizer */
+/*.customize-control select {
+    width: 99.4%;
+}
+*/
+#accordion-section-plate_theme_options_footer .customize-control-checkbox {
+    margin-bottom: 0;
+}
+
+#customize-control-pro_typography_content ul,
+#customize-control-pro_colors_content ul,
+#customize-control-pro_portfolio_content ul,
+#customize-control-pro_portfolio_cta_content ul {
+    list-style-type: disc;
+    padding-left: 1.3em;
+    margin-bottom: 1.5em;
+}
+
+#customize-control-pro_typography_content .description,
+#customize-control-pro_colors_content .description,
+#customize-control-pro_portfolio_content .description,
+#customize-control-pro_portfolio_cta_content .description {
+    font-style: normal;
+}
+
+#customize-control-pro_typography_content .button,
+#customize-control-pro_colors_content .button,
+#customize-control-pro_portfolio_content .button,
+#customize-control-pro_portfolio_cta_content .button {
+    width: 100%;
+    text-align: center;
+}
+
+#customize-controls .control-section .accordion-section-title:hover .plate-upgrade-link {
+    background-color: #23282d !important;
+}
+
+#accordion-panel-plate_pro_typography.control-panel-default .plate-upgrade-link {
+    margin-right: 30px !important;
+}
+
+
+#accordion-panel-plate_pro_typography.control-panel-default .accordion-sub-container .control-section-default.control-subsection h3.accordion-section-title .plate-upgrade-link {
+    margin-right: 10px !important;
+}
+
+
+.customize-section-title h3 .plate-upgrade-link {
+    display: none !important;
+}
+
+
+/* Post Type Sorting */
+
+
+.js #team_list .menu-item-handle,
+.js #portfolio_list .menu-item-handle,
+.js #testimonial_list .menu-item-handle {
+    box-shadow: 0 1px 3px rgba(0,0,0,.05);
+    line-height: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+#team_list .menu-item-bar,
+#portfolio_list .menu-item-bar,
+#testimonial_list .menu-item-bar {
+    margin: 0;
+}
+
+.js #team_list .menu-item-handle img,
+.js #portfolio_list .menu-item-handle img,
+.js #testimonial_list .menu-item-handle img {
+    border-radius: 2px;
+    height: 25px;
+    width: 25px;
+}
+
+.js #team_list .menu-item-title,
+.js #portfolio_list .menu-item-title,
+.js #testimonial_list .menu-item-title {
+    padding-left: 35px;
+}
+
+.menu-item-image {
+    border-radius: 2px;
+    left: 10px;
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    background-color: #E7E7E7;
+}
+
+
+
+
+/* Customizer */
+/*.customize-control select {
+    margin-top: 7px;
+    width: 99.4%;
+}
+*/
+
+ /* Meta */
+.media-frame .attachments-browser .media-toolbar {
+    display: block!important;
+}
+
+.bean-meta-table {
+    margin: 0;
+}
+
+.bean-meta-table tr {
+    border-top: 1px solid #EEE;
+}
+
+.bean-meta-table tr:first-child {
+    border-top: none;
+}
+
+.bean-meta-table th {
+    padding: 20px 15px;
+    padding-right: 5%;
+    width: 35%;
+}
+
+.bean-meta-table a {
+    outline: none!important;
+}
+
+.bean-meta-table label span {
+    display: block;
+    color: #999;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 3px 0 0px 0;
+}
+
+.bean-meta-table input,
+.bean-meta-table textarea {
+    width: 100%;
+    margin-right: 5px;
+    float: left;
+}
+
+.bean-meta-table select {
+    min-width: 150px;
+}
+
+.bean-meta-table input.file {
+    width: 80%;
+}
+
+.bean-meta-table input.button {
+    margin-right: 0;
+    outline: none!important;
+    width: auto;
+}
+
+.bean-meta-table #bean_images_upload {
+    margin-top: 14px;
+}
+
+.bean-meta-table input.radio {
+    float: none;
+    margin-right: 3px;
+    margin-top: 0px;
+    width: auto;
+}
+
+.bean-meta-table .radio-label {
+    margin-right: 30px;
+}
+
+.bean-meta-table input[type='checkbox'] {
+    margin-top: 1px;
+    margin-right: 10px;
+    width: 10px;
+}
+
+#bean_metabox_seo .radio-label {
+    text-transform: capitalize!important;
+}
+
+.bean-meta-table td span,
+.bean-meta-table .radio-label {
+    color: #999;
+    font-size: 13px;
+
+}
+
+/* Colorpicker styles */
+.bean-box-color {
+    position: relative;
+}
+
+td.bean-box-color {
+    padding: 36px 10px;
+}
+
+.bean-box-color input {
+    margin-right: 10px;
+}
+
+.bean-box-color .wp-color-picker {
+    width: 65px!important;
+}
+
+.bean-box-color .button.button-small {
+    height: 23px!important;
+    margin-top: 1px;
+}
+
+.bean-box-color .wp-picker-clear {
+    margin-left: 15px!important;
+}
+.bean-box-color .wp-picker-clear {
+    margin-left: 15px!important;
+}
+
+.bean-box-color .wp-color-result {
+    margin: 0 6px 3px 0!important;
+}
+
+.bean-box-color .wp-color-result,
+.bean-box-color .wp-color-result.wp-picker-open {
+    top: 1px!important;
+}
+
+
+/* Media meta */
+.post-type-portfolio .media-button-reverse {
+    display: none;
+}
+
+.bean-meta-thumbnails {
+    clear: left;
+    margin-top: 50px;
+}
+
+.bean-meta-thumbnails li {
+    float: left;
+    margin-right: 5px;
+}
+
+.bean-meta-thumbnails li img {
+    height: 40px;
+}
+
+.bean-meta-thumbnails img { vertical-align: bottom; }
+
+
+/* Portfolio side format selector */
+#side-sortables #portfolio-type.postbox .bean-meta-table th {
+    padding: 0px;
+    vertical-align: middle;
+    width: 100%;
+    line-height: 1.4;
+    font-weight: normal;
+}
+
+#side-sortables #portfolio-type.postbox .bean-meta-table strong {
+    font-weight: normal;
+    margin-top: 1px;
+}
+
+#side-sortables #portfolio-type.postbox .bean-meta-table td span {
+    display: none;
+}
+
+#side-sortables #portfolio-type.postbox .bean-meta-table input[type='checkbox'] {
+    margin: 0;
+}
+
+label._bean_portfolio_type_audio:before,
+label._bean_portfolio_type_video:before,
+label._bean_portfolio_type_gallery:before {
+    color: #DDD;
+    content: '\f161';
+    display: inline-block;
+    font: 400 20px/1 dashicons;
+    margin-right: 7px;
+    position: relative;
+    vertical-align: middle;
+    speak: none;
+    -moz-osx-font-smoothing: grayscale;
+     -webkit-font-smoothing: antialiased;
+    -webkit-transition: all .1s ease-in-out;
+            transition: all .1s ease-in-out;
+}
+
+label._bean_portfolio_type_audio:before {
+    content: '\f127';
+}
+
+label._bean_portfolio_type_video:before {
+    content: '\f126';
+}
+
+/*===================================================================*/
+/* IMAGE RADIO
+/*===================================================================*/
+.image-radio {
+     display: none !important;
+}
+
+.customize-control-images_radio p {
+     margin: 0 0 15px;
+}
+
+.image-radio + label {
+     display: block;
+     background-color: #DBDBDB;
+     float: left;
+     width: 100%;
+     border-radius: 3px;
+     text-align: center;
+     margin-bottom: 5px;
+}
+
+.image-radio + label img {
+     margin: 0 auto;
+     display: block;
+}
+
+.image-radio:checked + label  {
+     background-color: #2EA2CC;
+     opacity: 1;
+}
+
+span.description {
+     margin-bottom: 15px;
+}
+
+.description.textarea-description {
+     display: block;
+}
+
+.customize-control-radio input {
+      margin-top: -2px;
+}
+
+/*===================================================================*/
+/* WIDGET CUSTOMIZER ICONS
+/*===================================================================*/
+p.description {
+     display: none;
+}
+
+#available-widgets [class*=flickr] .widget-title:before,
+#available-widgets [class*=dribbble] .widget-title:before,
+#available-widgets [class*=instagram] .widget-title:before,
+#available-widgets [class*=bean_500px] .widget-title:before {
+     content: "\f233";
+}
+
+#available-widgets [class*=features] .widget-title:before,
+#available-widgets [class*=intro] .widget-title:before {
+     content: "\f207";
+}
+
+#available-widgets [class*=portfolio] .widget-title:before {
+     content: "\f128";
+}
+
+#available-widgets [class*=portfolio_menu] .widget-title:before {
+     content: "\f214";
+}
+
+#available-widgets [class*=portfolio_tax] .widget-title:before {
+     content: "\f479";
+}
+
+
+#available-widgets [class*=testimonials] .widget-title:before {
+     content: "\f122";
+}
+
+/*===================================================================*/
+/* SECTIONS
+/*===================================================================*/
+/*.customize-control select {
+     background: #FCFCFC no-repeat 97% 12px;
+     border: 1px solid #CCC;
+     border-radius: 3px;
+     box-shadow: inset 0 1px 0 #FFF,0 1px 0 rgba(0, 0, 0, 0.08);
+     color: #555;
+     cursor: pointer;
+     display: inline-block;
+     font-size: 13px;
+     margin-top: 0;
+     height: 28px;
+     line-height: 18px;
+     overflow: hidden;
+     padding: 0 0 0 8px;
+     text-decoration: none;
+     width: 100%;
+     white-space: nowrap;
+     vertical-align: top;
+     -webkit-appearance: none;
+}
+
+.customize-control select:hover {
+     background-color: #FAFAFA;
+     background-position: 97% -23px;
+     border-color: #999;
+     color: #222;
+}
+
+@-moz-document url-prefix() {
+  .customize-control select {
+     padding: 2px;
+  }
+}
+*/
+li[id*='accordion-section-divider'] * {
+     display: none;
+}
+
+li#accordion-section-nav .description,
+li#accordion-section-static_front_page .description {
+     display: none;
+}
+
+/*===================================================================*/
+/* SLIDER CLASS
+/*===================================================================*/
+.customize-control-slider input[type=text] {
+     border-radius: 4px;
+}
+
+.bean_slider.ui-slider {
+     background: #CCCCCC;
+     border-radius: 5px;
+     height: 5px;
+     margin-top: 11px;
+     position: relative;
+     text-align: left;
+}
+
+.bean_slider.ui-slider .ui-slider-handle {
+     background: #FFF;
+     border: none;
+     border-radius: 100px;
+     cursor: pointer;
+     height: 1.4em;
+     margin-left: -.6em;
+     outline: none!important;
+     position: absolute;
+     top: -9px;
+     width: 1.4em;
+     z-index: 2;
+     -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     -webkit-transition: box-shadow 0.15s;
+        -moz-transition: box-shadow 0.15s;
+         -ms-transition: box-shadow 0.15s;
+          -o-transition: box-shadow 0.15s;
+}
+
+.bean_slider.ui-slider .ui-slider-handle:hover {
+     /*background: #FAFAFA;*/
+     -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+/*===================================================================*/
+/* CUSTOM CSS FOR LISTS
+/*===================================================================*/
+#customize-theme-controls .accordion-section-content {
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+.customize-control {
+     margin-bottom: 10px;
+}
+
+.customize-control.customize-control-checkbox {
+     margin-bottom: 0;
+}
+
+.customize-control-radio label {
+     line-height: 25px;
+}
+
+
+/*===================================================================*/
+/* IMAGE UPLOADERS
+/*===================================================================*/
+.customize-control-background .upload-button, .customize-control-site_icon .upload-button, .customize-control-header .new,  .customize-control-image .upload-button, .customize-control-upload .upload-button {
+     float: left;
+}
+
+.customize-control-background .actions, .customize-control-site_icon .actions, .customize-control-header .actions, .customize-control-image .actions {
+     margin-bottom: 15px;
+}
+
+.customize-control-background .current .container, .customize-control-site_icon .current .container, .customize-control-image .current .container, .customize-control-upload .current .container {
+     min-height: 30px;
+}
+
+.customize-control-background .inner, .customize-control-site_icon .inner, .customize-control-header .inner, .customize-control-header .inner .dashicons, .customize-control-image .inner, .customize-control-upload .inner {
+     line-height: 10px;
+}
+
+.customize-control-background .current .container, .customize-control-site_icon .current .container, .customize-control-header .current .container, .customize-control-image .current .container, .customize-control-upload .current .container {
+     background-color: #F5F5F5;
+     border: 1px dashed #B4B4B4;
+}
+
+.customize-control-background .inner, .customize-control-site_icon .inner, .customize-control-header .inner, .customize-control-image .inner, .customize-control-upload .inner {
+     color: #B4B4B4;
+     font-size: 12px;
+}

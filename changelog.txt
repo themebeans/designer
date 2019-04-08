@@ -1,0 +1,376 @@
+** Designer Changelog **
+
+06 April 2019, Version 1.6.13
+	* New: Add support for the new `wp_body_open` hook in WordPress 5.2+
+	* Tweak: Admin 1.6.1
+
+17 October 2018, Version 1.6.12
+	* New: Add support for PHP 7.2
+	* Fix: Resolve header tagline issue on WooCommerce archive views
+
+01 October 2018, Version 1.6.11
+	* Tweak: Tweak placeholder text for portfolio CTA form
+
+25 September 2018, Version 1.6.10
+	* Tweak: Add a new designer_woocommerce_product_filter_pages() filter to manually set which pages the product feed appears on
+
+13 September 2018, Version 1.6.9
+	* Tweak: Add proper z-index fix for square links on the contact page
+	* Fix: Add placeholder text to the portfolio call to action form fields
+
+06 September 2018, Version 1.6.8
+	* New: Enable the product grid to display on all WooCommerce pages and cart views
+
+06 September 2018, Version 1.6.7
+	* Tweak: Add target blank to social sharing icons
+	* Fix: Clean up WooCommerce product category view
+
+25 May 2018, Version 1.6.6
+	* New: WooCommerce 3.4 compatibility
+	* New: PHP 7.2 compatibility
+	* New: Admin 1.4.0 update
+	* Tweak: Remove loop_shop_per_page filter
+	* Tweak: PHPCS code formatting
+
+26 February 2018, Version 1.6.5
+	Fixes & Updates:
+		* Resolve contact form map scrolling error on mobile
+
+21 February 2018, Version 1.6.4
+	Fixes & Updates:
+		* Resolves an issue where some servers were not able to properly validate licenses
+
+
+20 February 2018, Version 1.6.3
+	New:
+		* Added a new Customizer partial to the footer colophon option for improved Customizer UX
+
+	Fixes & Updates:
+		* Added support for <strong>, <em>, and <br> elements within the footer colophon option
+
+
+16 February 2018, Version 1.6.2
+	New:
+		* Added new header font styling options within the Customizer
+		* Added new logo size options for mobile and desktop views via the Site Identity panel within the Customizer
+		* Improved font rendering and weights for better accessibility
+
+	Fixes & Updates:
+		* Migrated old range Customizer controls to the new framework's range control
+
+
+08 February 2018, Version 1.6.1
+	New:
+		* Added compatibility for WooCommerce 3.3+
+
+	Fixes & Updates:
+		* Tweaked the Dashboard Doc module for improved UI/X
+		* Tweaked the Dashboard Doc module to better support alternate WordPress admin color schemes
+		* Updated the Dashboard Doc module to enable you to search for queries in our Help Center 🎉
+		* Updated /admin/ to v1.3.2 with improved filtering, the new Dashboard Doc module and improved white-labeling options
+
+
+10 November 2017, Version 1.6.0
+	New
+		* Introduced a new license Customizer control for managing your theme license
+		* Removed the dashboard license widget
+
+
+27 October 2017 - Version 1.5.9
+	New:
+		* Added jquery.scrollTo support for improved "back-to-top" performance in Chrome + FireFox
+
+	Fixes & Updates:
+		* Refactored admin styles for improved preformance
+		* Updated /admin/ to v1.2.0
+		* Updated languages
+
+
+23 October 2017 - Version 1.5.8
+	Fixes & Updates:
+		* WooCommerce wc_get_checkout_url() update for the header checkout icon
+		* Improved sourcemapping for extended theme development
+
+
+18 October 2017 - Version 1.5.7
+	Fixes & Updates:
+		* Fixed parallax scrolling scripts on singular pages
+		* Updated languages
+
+
+12 October 2017 - Version 1.5.6
+	New:
+		* Added support for Portfolio Professional (an upcoming ThemeBeans plugin)
+
+	Fixes & Updates:
+		* Update parallax scrolling scripts on singular pages to be silky smooth
+		* Updated /admin/ to v1.1.4
+		* Updated languages
+
+
+06 September 2017 - Version 1.5.5
+	Fixes & Updates:
+		* Beaver Builder integration for the single portfolio view
+		* Updated languages
+
+
+05 September 2017 - Version 1.5.4
+	Fixes & Updates:
+		* Fixed Customizer google map address UI
+		* Updated languages
+
+
+24 August 2017 - Version 1.5.3
+	Fixes & Updates:
+		* Updated /admin/ to v1.1.2
+		* Added conditional checks for Envato Hosted accounts
+		* Updated file headers
+		* Updated languages
+
+
+23 August 2017 - Version 1.5.2
+	Fixes & Updates:
+		* Fixed mobile responsive styles introduced in 1.5.0
+		* Added hover checks for portfolio pagination thumbnail links for better UX
+
+
+20 August 2017 - Version 1.5.1
+	Fixes & Updates:
+		* Resovled an issue that appears when WooCommerce is not activated
+
+
+17 August 2017 - Version 1.5.0
+	New:
+		* Added a new Customizer option to customize the overlay text color and opacity
+		* Added a new Customizer option to set the logo max-width on desktop and mobile devices
+		* Added a new Customizer option to images to the portfolio pagination blocks
+		* Added new live previewing capabilities to the Customizer colors and other settings
+		* Added new conditional option settings to improve the overall Customizer UX
+		* Added CSSComb support for more efficient stylesheets
+		* Added Gulp minification to all front-end stylesheets and scripts 🚀
+		* Added the theme version to the dashboard footer to help you stay up to date
+		* Added a new in-dashboard help guide via the little question mark icon at the bottom right of admin pages
+		* Added support for Beaver Builder on single portfolio views
+		* Added new Customizer controls, to improve the UI
+		* Updated template files for WooCommerce 3.1.0 +
+
+	Fixes & Updates:
+		* Updated the transform parallax functionality to greatly improve performance across the board, but especially in Safari
+		* Updated /admin/ to v1.1.0
+		* Improved script loading on the front-end
+		* Organized css/image/js assets into the /assets/ folder
+		* Organized and re-structured Customizer options
+
+
+20 June 2017 - Version 1.4.5
+	Fixes & Updates:
+		* Removed the video widget, as there's one included in core now
+		* Resolved missing editor-style.css notification in the Visual Editor
+		* Moved the /css/ and the /fonts/ folders into a new /assets/ top level directory
+
+
+13 April 2017 - Version 1.4.4
+	Fixes & Updates:
+		* Updated template files for WooCommerce 3.0.2
+
+
+11 April 2017 - Version 1.4.3
+	New:
+		* Added support for WooCommerce 3.0 🚀, with pre 3.0 fallbacks in place. 🙌
+
+
+20 March 2017 - Version 1.4.2
+	Fixes & Updates:
+		* Resource hint Google font update
+
+
+20 March 2017 - Version 1.4.1
+	New:
+		* Added the theme version to the dashboard footer, next to the WordPress version
+		* Incorporated the WordPress 4.7 get_theme_file_uri() function for enhanced child theming
+		* Incorporated the WordPress 4.7 get_parent_theme_file_path() function for enhanced child theming
+		* Improved performance by adding resource hints to browsers for pre-fetching, pre-rendering and pre-connecting for Google fonts
+
+	Fixes & Updates:
+		* Designer now requires at least WordPress version 4.7
+		* Strong text fix
+		* Updated languages
+
+
+15 March 2017 - Version 1.4.0
+	New:
+		* Added portfolio contact form status notice
+		* Timezone is now not a required field
+
+	Fixes & Updates:
+		* Updated Dropkick.js
+		* Updated languages
+
+
+28 February 2017 - Version 1.3.9
+	Fixes & Updates:
+		* Fixed edge case portfolio contact form is_email validation error
+
+
+15 February 2017 - Version 1.3.8
+	New:
+		* All-new mobile menu sub-menu functionality
+	Fixes & Updates:
+		* Updated languages
+
+
+24 Januray 2017 - Version 1.3.7
+	Fixes & Updates:
+		* Fixed infrequent Contact Template bug some users were experiencing
+		* Fixed comments display issues
+		* Updated languages
+
+
+23 December 2016 - Version 1.3.6
+	Fixes & Updates:
+		* Minor WooCommerce style updates
+		* Fixed WooCommerce variations bug
+		* Updated the Customizer for WordPress 4.7
+		* Updated languages
+
+
+21 November 2016 - Version 1.3.5
+	Fixes & Updates:
+		* Fixed JetPack comments notification labels
+
+
+03 November 2016 - Version 1.3.4
+	New:
+		* Added support for Simple Custom Post Order, for easier portfolio sorting capabilities
+- https://wordpress.org/plugins/simple-custom-post-order
+	Fixes & Updates:
+		* Fixed portfolio tags and categories page display error
+		* Updated textdomains
+
+
+20 October 2016 - Version 1.3.3
+	Fixes & Updates:
+		* Fixed persistent comments on pages
+		* Updated languages
+
+
+20 October 2016 - Version 1.3.2
+	Fixes & Updates:
+		* Maps address background color fix
+
+
+19 October 2016 - Version 1.3.1
+	Fixes & Updates:
+		* Default Open Sans font fix with designer_fonts_url()
+		* Updated languages
+
+
+12 October 2016 - Version 1.3.0
+	New:
+		* Massive framework improvment, which is now based on Underscores
+		* Added WooCommerce support directly within the theme, instead of through a child theme
+		* Added TGM Plugin Activation support
+		* Added concated styles and scripts for faster performance 🚀
+		* Added improved JetPack compatiblity with site logo and retina capabilties
+		* Added ThemeBeans_Request_Feedback class
+		* Added WordPress 4.2- backwards compatibility notice
+		* Added new DESIGNER_DEBUG global variable for debugging purposes
+		* Added a new template-tags.php file, for template tags of course
+		* Added improved Photoswipe gallery styles
+		* Moved template parts into the /template-parts/ directory
+		* Moved /assets/images/ to /images/
+		* Removed Retina.js support in lieu of built-in retina capabilitites
+		* Removed the Customizer custom CSS module, in lieu of Simple Custom CSS [https://wordpress.org/plugins/simple-custom-css]
+		* Removed SEO settings, in lieu of Yoast SEO [https://wordpress.org/plugins/wordpress-seo]
+	Fixes & Updates:
+		* Improved theme updater class
+		* Improved Customizer sanitization functions
+		* Improved email sanitization callbacks
+		* Improved mobile home functions
+		* Cleaned up unnecessary Bean Framework functions
+		* Updated screenshot for HiDPI screens
+		* Updated Theme Updater class with required admin permissions
+		* Updated pingback header function
+		* Security audit and relevant optimizations
+		* Updated child theme
+		* Updated languages
+
+
+03 June 2016 - Version 1.2.0
+		* WordPress 4.5 updates
+		* Updated the mobile navigation UI/X [NEW]
+		* Added option to add content above the portfolio template grid [NEW]
+		* General performance improvements
+		* WordPress title-tag support
+		* Updated documentation
+		* Updated languages
+
+
+03 March 2016 - Version 1.1.2
+		* Fixed JetPack Carousel lightbox bug
+
+
+10 February 2016 - Version 1.1.1
+		* Fixed a bug when there's video + images on a portfolio post
+		* New Designer Help Guide
+		* Updated languages
+
+
+25 January 2016 - Version 1.1.0
+		* EDD_Theme_Updater Update
+		* Updated languages
+
+
+08 January 2016 - Version 1.0.8
+		* Dynamic Sidebar WP 4.4 fixes
+		* Updated languages
+
+
+18 December 2015 - Version 1.0.7
+		* WP 4.4 comments fix
+		* Updated languages
+
+
+31 August 2015 - Version 1.0.6
+		* 100% GPL license
+
+
+26 August 2015 - Version 1.0.5
+		* Archivial portfolio update
+		* Framework updated to v2.6.2.2
+		* Updated languages
+
+
+18 August 2015 - Version 1.0.4
+		* 4.3 widget __construct update
+		* Framework updated to v2.6.2.1
+		* Updated languages
+
+
+18 August 2015 - Version 1.0.3
+		* Theme Customizer update
+		* Added HTML variables to footer copyright
+		* Portfolio video post media fix
+		* Updated WooCommerce child theme
+		* Framework updated to v2.6.2
+		* Updated languages
+
+
+5 August 2015 - Version 1.0.2
+		* Added option to disable lazyloading portfolio
+		* Added option to disable single portfolio lightbox
+		* Added option to enable featured images on Contact template page links
+		* Updated CSS for Contact template page links
+		* Updated languages
+
+
+30 July 2015 - Version 1.0.1
+		* Added portfolio meta option for [video] WP shortcodes
+		* Tidied up style.css
+		* Fixed RSVP form bug some users were experiencing
+		* Framework updated to v2.6.1
+		* Updated languages
+
+
+28 July 2015 - Version 1.0
+		* Initial release
