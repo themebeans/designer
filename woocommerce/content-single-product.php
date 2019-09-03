@@ -13,16 +13,31 @@
  * @see         https://docs.woocommerce.com/document/template-structure/
  * @author      WooThemes
  * @package     WooCommerce/Templates
- * @version     3.4.0
+ * @version     3.6.0
  */
 
 
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
+
+global $product;
+
+/**
+ * Hook: woocommerce_before_single_product.
+ *
+ * @hooked wc_print_notices - 10
+ */
+do_action( 'woocommerce_before_single_product' );
+
+if ( post_password_required() ) {
+	echo get_the_password_form(); // WPCS: XSS ok.
+	return;
+}
+
 ?>
 
-<div id="product-<?php the_ID(); ?>" <?php post_class( 'page content-left' ); ?>>
+<div <?php wc_product_class( 'page content-left', $product ); ?>>
 
 	<?php
 	/**
